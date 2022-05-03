@@ -5,4 +5,5 @@ Practical task "Bring It On"
 Practical task "Hurt Me Plenty"
 Practical task "Hardcore"
 Practical task "Nightmare!"
+Practical task "npm test"
 ```
