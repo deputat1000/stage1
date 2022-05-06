@@ -18,4 +18,5 @@ node code.js
 ```
 1. Do addition of various types (string + boolean, string + number, number + boolean)
 2. Do multiplication of various types (string * boolean, string * number, number * boolean)
+3. Do division of various types (string / boolean, string / number, number / boolean)
 ```
