@@ -17,4 +17,5 @@ node code.js
 # Tasks
 ```
 1. Do addition of various types (string + boolean, string + number, number + boolean)
+2. Do multiplication of various types (string * boolean, string * number, number * boolean)
 ```

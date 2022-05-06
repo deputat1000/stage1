@@ -11,7 +11,11 @@ while (exit === true) { //recircle programm while the user desire it
     console.log("\nAddition:\n" +             
                 `${typeof(str)} "${str}" + ${typeof(bool)} ${bool} = ${Number(str) + bool} \n` +
                 `${typeof(str2)} "${str2}" + ${typeof(numb)} ${numb} = ${Number(str2) + numb} \n` +
-                `${typeof(numb)} ${numb} + ${typeof(bool2)} ${bool2} = ${numb + bool2} \n\n`);
+                `${typeof(numb)} ${numb} + ${typeof(bool2)} ${bool2} = ${numb + bool2} \n\n` +
+                "Multiplication:\n" +
+                `${typeof(str)} "${str}" * ${typeof(bool)} ${bool} = ${str * bool} \n` +
+                `${typeof(str2)} "${str2}" * ${typeof(numb)} ${numb} = ${str2 * numb} \n` +
+                `${typeof(numb)} ${numb} * ${typeof(bool2)} ${bool2} = ${numb * bool2} \n\n`);
     exit = readlineSync.keyInYN('Do you want to continue?', {limit: 'yn'}); //user announces his desire to continue working or not
     
     if (exit === true) {
