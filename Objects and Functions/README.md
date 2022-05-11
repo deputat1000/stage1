@@ -16,4 +16,5 @@ node code.js
 ```
 1. Create object 'car', add a property 'color' with a value 'black' to it
 2. Change the property 'color' of the object 'car' to 'green'
+3. Add the property 'power' to the object 'car', which is a function and displays the engine power in the console
 ```
