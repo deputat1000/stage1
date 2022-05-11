@@ -8,3 +8,5 @@ let car = {
 }
 
 console.log(`Car color - ${car.color}`);
+car.color = 'green';
+console.log(`New car color - ${car.color}`);

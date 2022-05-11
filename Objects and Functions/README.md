@@ -15,4 +15,5 @@ node code.js
 # Tasks
 ```
 1. Create object 'car', add a property 'color' with a value 'black' to it
+2. Change the property 'color' of the object 'car' to 'green'
 ```
