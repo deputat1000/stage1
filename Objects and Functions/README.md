@@ -18,4 +18,5 @@ node code.js
 2. Change the property 'color' of the object 'car' to 'green'
 3. Add the property 'power' to the object 'car', which is a function and displays the engine power in the console
 4. Pears and apples are accepted to the warehouse, write a function that returns the result of adding the number of accepted pears and apples
+5. Your name is stored in the payment terminal, write a function to determine the name in the terminal (if you entered your name, then 'hello + name', if not, then 'no such name')
 ```

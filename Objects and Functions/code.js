@@ -25,3 +25,21 @@ let fruitSum = () => {
 }
 
 console.log(`Fruit sum = ${fruitSum()}`);
+
+//terminal task
+console.log('_____\nTERMINAL TASK');
+
+let memoryName = 'John';
+let myName;
+
+function nameDet() {
+    (myName === memoryName) ?
+        console.log(`Hello, ${myName}!`) : console.log('No such name');
+}
+
+do { 
+    myName = readlineSync.question('Enter your name: ');
+    nameDet();
+    if (myName === memoryName) break;
+} while (readlineSync.keyInYNStrict('Do you want to continue?'));
+//the question-answer cycle will continue until the user enters an existing name or wants to exit
