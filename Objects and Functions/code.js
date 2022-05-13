@@ -107,3 +107,28 @@ function print(arg) { //just prints the result
     console.log(arg);
     console.log(`Argument type - ${typeof(arg)}`);
 }
+
+//prime number part
+console.log('_____\nPRIME NUMBER TASK' +
+            '\nInfo: MAX_SAFE_INTEGER - 9007199254740991' +
+            '\n      MAX NUMBER LENGTH - 1023');
+
+do {
+    var num = readlineSync.questionInt('_____\nEnter the number: ');
+
+    if (!Number.isSafeInteger(num)) { //check for exceeding the MAX_SAFE_INTEGER
+        console.log('Greater than the MAX_SAFE_INTEGER! Precision may be lost!'); 
+    }
+    primeDet(num);
+} while (readlineSync.keyInYNStrict('\nDo you want to continue?'));
+
+function primeDet(num) {
+    (isPrimeNum(num)) ? console.log(`${num} - is a prime number`): console.log(`${num} - isn't a prime number`);
+}
+
+function isPrimeNum(num) {
+    for(let i = 2, lim = Math.sqrt(num); i <= lim; i++) {
+        if(num % i === 0) return false;
+        return true;
+    }
+}

@@ -20,4 +20,5 @@ node code.js
 4. Pears and apples are accepted to the warehouse, write a function that returns the result of adding the number of accepted pears and apples
 5. Your name is stored in the payment terminal, write a function to determine the name in the terminal (if you entered your name, then 'hello + name', if not, then 'no such name')
 6. Write a function to calculate the type of an argument and output the type to the console
+7. Write a function that determines if a number is prime or not
 ```
