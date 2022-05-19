@@ -65,3 +65,11 @@ console.log('Original array:'); console.log(...origArr);
 
 let sortedArr = origArr.slice().sort((a,b) => b - a);
 console.log('Sort in descending order:'); console.log(...sortedArr);
+
+//filter array by value >3
+console.log('_____\n6. FILTER ARRAY BY VALUE >3');
+
+console.log('Original array:'); console.log(...origArr);
+
+let filterArr = origArr.filter(item => item > 3);
+console.log('Filter by value >3:'); console.log(...filterArr);
