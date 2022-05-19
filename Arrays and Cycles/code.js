@@ -56,3 +56,12 @@ console.log(numArr);
 
 let boolArr = numArr.map(item => Boolean(item));
 console.log('\nYour boolean array:'); console.log(...boolArr);
+
+//sort array in descending order
+console.log('_____\n5. SORT ARRAY IN DESCENDING ORDER');
+
+let origArr = [1,6,7,8,3,4,5,6];
+console.log('Original array:'); console.log(...origArr);
+
+let sortedArr = origArr.slice().sort((a,b) => b - a);
+console.log('Sort in descending order:'); console.log(...sortedArr);

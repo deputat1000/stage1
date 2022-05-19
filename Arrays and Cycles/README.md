@@ -18,4 +18,5 @@ node code.js
 2. Given an automaker array, convert the array to a string and back to an array
 3. Given an array of the names of your friends, add the word 'hello' to each element of the array
 4. Convert numeric array to Boolean
+5. Sort array [1,6,7,8,3,4,5,6] in descending order
 ```
