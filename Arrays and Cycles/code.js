@@ -38,3 +38,21 @@ if (friendArr != 'Hello, ') {
     console.log('\nYour hello to friends:');
     console.log(friendArr);
 } else console.log('No friends :(');
+
+//numeric array to Boolean
+console.log('_____\n4. NUMERIC ARRAY TO BOOLEAN');
+
+let numArr = readlineSync.question('Enter numbers (comma-separated): ');
+numArr = numArr.split(',').map(item => {
+    item = item.trim();
+    if (item === 'null') item = null;
+    else if (item === '') item = undefined;
+    else item = +item;
+
+    return item;
+});
+
+console.log(numArr);
+
+let boolArr = numArr.map(item => Boolean(item));
+console.log('\nYour boolean array:'); console.log(...boolArr);
