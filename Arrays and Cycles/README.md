@@ -15,4 +15,5 @@ node code.js
 # Tasks
 ```
 1. Given an array consisting of movie titles, iterate over an array with printing the title of each movie to the console
+2. Given an automaker array, convert the array to a string and back to an array
 ```
