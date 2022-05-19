@@ -73,3 +73,20 @@ console.log('Original array:'); console.log(...origArr);
 
 let filterArr = origArr.filter(item => item > 3);
 console.log('Filter by value >3:'); console.log(...filterArr);
+
+//index of array element equal to the number
+console.log('_____\n7. INDEX OF ARRAY ELEMENT EQUAL TO THE NUMBER');
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+do {
+    var num = readlineSync.questionInt('Enter the number: ');
+    findIndex(arr, num);
+} while (readlineSync.keyInYNStrict('Do you want to continue?'));
+
+function findIndex(arr, num) {
+    let result = arr.findIndex(item => item === num);
+    (result === -1) ?
+        console.log(`There is no element equal to ${num}`):
+        console.log(`Index of element equal to ${num} - ${result}`);
+}
