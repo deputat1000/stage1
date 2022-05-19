@@ -90,3 +90,13 @@ function findIndex(arr, num) {
         console.log(`There is no element equal to ${num}`):
         console.log(`Index of element equal to ${num} - ${result}`);
 }
+
+//print a number until it becomes less than 10
+console.log('_____\n8. PRINT A NUMBER \'A\' UNTIL IT BECOMES LESS THAN 10');
+
+let a = readlineSync.questionInt('Enter the number: ')
+
+console.log(`\'a\' =`);
+for (a; a >= 10; a--) console.log(a);
+
+console.log(`Stop printing: now \'a\' is less than 10`);
