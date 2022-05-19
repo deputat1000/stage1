@@ -23,4 +23,5 @@ node code.js
 7. Write a function that takes two parameters - an array and a number, and prints the index of the array element equal to the number
 8. Implement a loop that will print the number 'a' until it becomes less than 10
 9. Implement a loop that prints prime numbers to the console
+10. Implement a loop that prints odd numbers to the console
 ```

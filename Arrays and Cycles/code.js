@@ -113,3 +113,10 @@ for (let num = 2; num <= lim; num++) {
     }
     console.log(num);
 }
+
+//print odd numbers to console
+console.log('_____\n10. PRINT ODD NUMBERS TO CONSOLE');
+
+lim = readlineSync.questionInt('Enter limit: ');
+
+for (let num = 0; num <= lim; num++) if (num % 2 !== 0) console.log(num);
