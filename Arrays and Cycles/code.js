@@ -100,3 +100,16 @@ console.log(`\'a\' =`);
 for (a; a >= 10; a--) console.log(a);
 
 console.log(`Stop printing: now \'a\' is less than 10`);
+
+//print prime numbers to the console
+console.log('_____\n9. PRINT PRIME NUMBERS TO THE CONSOLE');
+
+lim = readlineSync.questionInt('Enter limit: ');
+
+next:
+for (let num = 2; num <= lim; num++) {
+    for (let div = 2; div <= Math.sqrt(num); div++) {
+        if (num % div === 0) continue next;
+    }
+    console.log(num);
+}
