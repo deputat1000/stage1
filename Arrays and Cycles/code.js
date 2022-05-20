@@ -18,10 +18,10 @@ let automakers = ['Toyota', 'Volkswagen', 'BMW', 'Ford', 'KIA'];
 console.log(automakers);
 
 automakers = automakers.join(', ');
-console.log(`\n* To string:\n${automakers}`);
+console.log('\n* To string:', automakers);
 
 automakers = automakers.split(',').map(item => item = item.trim());
-console.log('* Back to an array:'); console.log(automakers);
+console.log('* Back to an array:', automakers);
 
 //Hello, friends array
 console.log('_____\n3. HELLO, FRIENDS ARRAY');
@@ -35,8 +35,7 @@ friendArr = friendArr.split(',').map(item => {
 });
 
 if (friendArr != 'Hello, ') {
-    console.log('\nYour hello to friends:');
-    console.log(friendArr);
+    console.log('\nYour hello to friends:\n', friendArr);
 } else console.log('No friends :(');
 
 //numeric array to Boolean
@@ -55,24 +54,24 @@ numArr = numArr.split(',').map(item => {
 console.log(numArr);
 
 let boolArr = numArr.map(item => Boolean(item));
-console.log('\nYour boolean array:'); console.log(...boolArr);
+console.log('\nYour boolean array:\n', ...boolArr);
 
 //sort array in descending order
 console.log('_____\n5. SORT ARRAY IN DESCENDING ORDER');
 
 let origArr = [1,6,7,8,3,4,5,6];
-console.log('Original array:'); console.log(...origArr);
+console.log('Original array:', ...origArr);
 
 let sortedArr = origArr.slice().sort((a,b) => b - a);
-console.log('Sort in descending order:'); console.log(...sortedArr);
+console.log('Sort in descending order:', ...sortedArr);
 
 //filter array by value >3
 console.log('_____\n6. FILTER ARRAY BY VALUE >3');
 
-console.log('Original array:'); console.log(...origArr);
+console.log('Original array:', ...origArr);
 
 let filterArr = origArr.filter(item => item > 3);
-console.log('Filter by value >3:'); console.log(...filterArr);
+console.log('Filter by value >3:', ...filterArr);
 
 //index of array element equal to the number
 console.log('_____\n7. INDEX OF ARRAY ELEMENT EQUAL TO THE NUMBER');
@@ -96,8 +95,7 @@ console.log('_____\n8. PRINT A NUMBER \'A\' UNTIL IT BECOMES LESS THAN 10');
 
 let a = readlineSync.questionInt('Enter the number: ')
 
-console.log(`\'a\' =`);
-for (a; a >= 10; a--) console.log(a);
+for (a; a >= 10; a--) console.log('a =', a);
 
 console.log(`Stop printing: now \'a\' is less than 10`);
 
