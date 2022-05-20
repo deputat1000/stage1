@@ -1,0 +1,15 @@
+{
+  "name": "arrays-and-cycles",
+  "version": "1.0.0",
+  "description": "``` This program executes the following tasks by accepting user-supplied variable values. Interaction with the program is possible through the console. ``` Install: ``` npm install ``` Run: ``` node code.js ```",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
