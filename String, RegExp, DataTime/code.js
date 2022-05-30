@@ -22,3 +22,17 @@ result = str.match(/2\+3/g) || 'No matches';
 console.log('\n* String:', str,
             '\n\nSearch result:', result, '| Match counter:', result.length);
 }
+
+
+//date task
+console.log('_____\nDATE TASK');
+
+let now = new Date();
+
+now = ['Day -', now.getDate(), 'Month -', now.getMonth() + 1, 'Year -', now.getFullYear()];
+
+console.log('\nCurrent date:');
+now.reduce((acc, item) => {
+    if (isNaN(acc)) console.log(acc, item); // print current day/month/year
+    return item;
+});
